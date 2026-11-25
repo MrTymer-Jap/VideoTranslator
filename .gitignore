@@ -1,0 +1,28 @@
+# Secrets
+.git_token
+.git_token.*
+*.token
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Build artifacts (exe is 193 MB and exceeds GitHub's 100 MB file limit)
+build/
+dist/
+*.spec.bak
+
+# Test media and generated outputs
+tests/beta/*.mp4
+tests/beta/*.mp3
+tests/beta/*.srt
+tests/beta/*.txt
+tests/*.wav
+tools/preview*.png
+
+# OS
+Thumbs.db
+Desktop.ini

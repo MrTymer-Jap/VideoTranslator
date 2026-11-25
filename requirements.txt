@@ -1,0 +1,15 @@
+# Speech recognition (local, multilingual, offline inference after model download)
+faster-whisper>=1.0.3
+
+# HTTP client for translation API and JMdict (Jisho) dictionary
+requests>=2.31.0
+
+# Static ffmpeg binary fallback when ffmpeg is not installed system-wide
+imageio-ffmpeg>=0.4.9
+
+# Japanese morphological tokenizer for accurate vocabulary extraction
+fugashi>=1.2.0
+unidic-lite>=1.0.8
+
+# Modern GUI toolkit
+customtkinter>=5.2.0
