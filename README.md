@@ -55,9 +55,11 @@ python app.py
 
 ### Готовый exe
 
-```
-dist\VideoTranslator.exe
-```
+Готовый файл можно скачать из релиза:
+https://github.com/MrTymer-Jap/VideoTranslator/releases/download/v1.0/VideoTranslator.exe
+
+Или собрать самостоятельно — он находится в `dist\VideoTranslator.exe`
+после запуска `build_exe.bat`.
 
 Один файл (~188 МБ): Python, Whisper, ffmpeg, словари и GUI уже внутри —
 ничего дополнительно устанавливать не нужно. Первый запуск может занять
